@@ -1,0 +1,244 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tablas</title>
+		<link href="../CSS/style galería.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			#tablas_uno, #tabla_dos, #tabla_tres {
+				width: auto auto;
+				border-collapse: collapse;
+			}
+
+			#tablas_uno td, #tablas_uno th {
+				border: 4px solid #FFF7EB;
+				text-align: center;
+			}
+
+			#tablas_uno th {
+				background-color: #2D4E69;
+				color: #FFF7EB;
+				height: 30px;
+				font-size: 14px;
+			}
+
+			#tablas_uno td {
+				background-color: #CAD8E6;
+				padding: 40px;
+				text-align: center;
+			}
+
+			#tabla_dos th {
+				background-color: #2D4E69;
+				color: #FFF7EB;
+				height: 30px;
+				font-size: 14px;
+				text-align: center;
+			}
+
+			#tabla_dos tr {
+				background-color: #CAD8E6;
+				color: black;
+				font-size: 14px;
+			}
+
+			#tabla_dos td{
+				height: 20px;
+				padding: 10px;
+				border: 4px solid #FFF7EB;
+				text-align: center;
+			}
+
+			#tabla_dos th{
+				border: 4px solid #FFF7EB;
+			}
+
+			#tabla_dos tr td:hover{
+				background-color: #BA8E7A;
+				color: white;
+			}
+
+			#tabla_tres{
+				width: 90%;
+				margin: 10px auto;
+				border-collapse: collapse;
+			}
+
+			#tabla_tres th {
+				background-color: #2D4E69;
+				height: 50px;
+				font-size: 14px;
+				color: white;
+				text-align: center;
+			}
+
+			#tabla_tres tr {
+				color: black;
+				font-size: 14px;
+				text-align: center;
+			}
+
+			#tabla_tres td{
+				height: 20px;
+				padding: 10px;
+				border: 4px solid #FFF7EB;
+			}
+
+			#tabla_tres th{
+				border: 4px solid #FFF7EB;
+			}
+
+			#tabla_tres tr:nth-child(even){
+				background-color: #97B8D2;
+				color: white;
+			}
+
+			#tabla_tres tr:nth-child(odd){
+				background-color: #DFE7EF;
+			}
+			
+			.filtro_sombra {
+				filter: drop-shadow(5px 5px 3px gray);
+			}
+			
+			.img_mascota {
+				width: 70%;
+				height: auto;
+			}
+			
+			main section h2 {
+				color: #2D4E69;
+				margin-bottom: 20px;
+				text-align: center;
+			}
+			
+        	.img_actor {
+				width: 40%;
+				height: auto;
+			}
+        </style>
+	</head>
+	
+	<body>
+		<header>
+			<h1>Tablas en HTML</h1>
+        </header>
+		
+		<nav>
+			<ul>
+                <li><b><a href="../index.html">Inicio</a></b></li>
+                <li><b><a href="galeria.html">Galería</a></b></li>
+                <li><b><a href="practicas.html">Prácticas</a></b></li>
+                <li><b><a href="contacto.html">Contacto</a></b></li>
+            </ul>
+        </nav>
+		
+		<main>
+			<section>
+                <h2>MIS MASCOTAS</h2>
+                <table id="tablas_uno">
+					<thead>
+						<th>Foto</th> <th>Nombre</th> <th>Edad</th>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td class="espacio_foto"><img src="../imágenes/IMG_20230614_214525.jpg" alt="" class="img_galeria filtro_sombra img_mascota"/></td> <td>Bowie</td> <td>5</td>
+                        </tr>
+                        
+                        <tr>
+							<td class="espacio_foto"><img src="../imágenes/IMG_0319.jpg" alt="" class="img_galeria filtro_sombra img_mascota"/></td> <td>Ramiro</td> <td>4</td>
+                        </tr>
+                        
+                        <tr>
+							<td class="espacio_foto"><img src="../imágenes/IMG_0483.JPG" alt="" class="img_galeria filtro_sombra img_mascota"/></td> <td>Milka</td> <td>6</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+			
+			<section>
+				<h2>MIS ACTORES FAVORITOS</h2>
+				<table id="tabla_dos">
+                    <thead>
+                          <th>Foto</th> <th>Nombre</th> <th>Película/serie favorita</th>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td id="espacio_foto"><img src="../imágenes/stan.jpg" alt="" class="img_galeria img_actor"/></td> <td>Sebastian Stan</td> <td>Fresh</td>
+                        </tr>
+                        
+                        <tr>
+                            <td id="espacio_foto"><img src="../imágenes/pedro.jpg" alt="" class="img_galeria img_actor"/></td> <td>Pedro Pascal</td> <td>The Mandalorian</td>
+                        </tr>
+                        
+                        <tr>
+                            <td id="espacio_foto"><img src="../imágenes/andrew.jpg" alt="" class="img_galeria img_actor"/></td> <td>Andrew Garfield</td> <td>El Sorprendente Hombre Araña</td>
+                        </tr>
+                        
+                        <tr>
+                            <td id="espacio_foto"><img src="../imágenes/Dylan.jpg" alt="" class="img_galeria img_actor"/></td> <td>Dylan O'brien</td> <td>Maze Runner: correr o morir</td>
+                        </tr>
+						
+						<tr>
+                            <td id="espacio_foto"><img src="../imágenes/Evan.jpg" alt="" class="img_galeria img_actor"/></td> <td>Evan Peters</td> <td>American Horror Story</td>
+                        </tr>
+						
+						<tr>
+                            <td id="espacio_foto"><img src="../imágenes/theo.avif" alt="" class="img_galeria img_actor"/></td> <td>Theo James</td> <td>Divergente</td>
+                        </tr>
+                    </tbody>
+					
+                </table>
+            </section>
+            
+            <section>
+				<h2>MIS ARTISTAS FAVORITOS</h2>
+				<table id="tabla_tres">
+					<thead>
+						  <th height="101">Foto</th> <th>Artista</th> <th>Canción favorita</th>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<td><img src="../imágenes/shawn.jpg" alt="" class="img_galeria img_actor"/></td>
+							<td>Shawn Mendes</td> 
+							<td>Piece Of You</td>
+						</tr>
+						<tr>
+							<td><img src="../imágenes/avaion.jpg" alt="" class="img_galeria img_actor"/></td>
+							<td>AVAION</td> 
+							<td>Sleepless</td>
+						</tr>
+						<tr>
+							<td><img src="../imágenes/eyk.jpg" alt="" class="img_galeria img_actor"/></td>
+							<td>Everyone You Know</td> 
+							<td>She Don't Dance</td>
+						</tr>
+						<tr>
+							<td><img src="../imágenes/m83.jpg" alt="" class="img_galeria img_actor"/></td>
+							<td>M83</td> 
+							<td>Midnight City</td>
+						</tr>
+						<tr>
+							<td><img src="../imágenes/LATIN_MAFIA.webp" alt="" class="img_galeria img_actor"/></td>
+							<td>LATIN MAFIA</td> 
+							<td>Sal rosa</td>
+						</tr>
+						<tr>
+							<td><img src="../imágenes/daniel_me_estas.jpg" alt="" class="img_galeria img_actor"/></td>
+							<td>Daniel, Me Estás Matando</td> 
+							<td>¿Qué se siente que me gustes tanto?</td>
+						</tr>
+					</tbody>
+				</table>
+            </section>
+        </main>
+		
+		<footer>
+			<h6><b>Elaborado por Montserrat Bello R.</b></h6>
+        </footer>
+		
+    </body>
+</html>

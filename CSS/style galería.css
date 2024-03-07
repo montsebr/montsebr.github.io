@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 55px;
+	background-color: #78A3C5;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+header h1 {
+    color: #FFF7EB;
+	padding: 15px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+nav{
+	background-color: #78A3C5;
+	margin: auto;
+	padding-bottom: 15px;
+	text-align: center;
+}
+            
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+    width: 10%;
+    background-color: #CAD8E6;
+    border-radius: 50px;
+    font-family:  Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    align-content: center;
+    margin: 15px;
+}
+            
+ nav ul li a:link{
+     font-size: 20px;
+     color: black;
+     text-decoration: none;
+ }
+
+ nav ul li a:visited{
+     color: #2D4E69;
+     text-decoration: none;
+ }
+
+ nav ul li a:hover{
+     text-decoration: underline;
+     color: yellow;
+ }
+            
+main{
+	height: auto;
+	background-color: #CAD8E6;
+	color: black;
+	margin: 0 auto;
+	padding: 30px;
+	text-align: justify;                
+}
+            
+footer{
+	background-color: #2D4E69;
+	height: 20px;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	padding: 30px;
+	font-family: sans-serif;
+}
+            
+section, #section_audio{
+	width: 60%;
+	height: auto;
+	background-color: #FFF7EB;
+	margin: 80px auto;
+	padding: 100px;
+	font-family: sans-serif;
+}
+
+section h1, #section_audio h1 {
+    color: #034040;
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+section p, #section_audio p {
+	text-align: justify;
+}
+
+.img_galeria {
+	width: 95%;
+	height: auto;
+#section_audio {
+}

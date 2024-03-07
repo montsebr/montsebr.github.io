@@ -1,0 +1,396 @@
+<!doctype html>
+<html>
+    <head>
+		<title>Mi primera página web</title>
+		<style type="text/css">
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            header{
+				height: 55px;
+				background-color: #78A3C5;
+				margin: 0 auto;
+				padding: 20px;
+				text-align: center;
+            }
+            
+            header h1 {
+				color: #FFF7EB;
+				padding: 15px;
+    			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+            }
+            
+            nav{
+				background-color: #78A3C5;
+				margin: auto;
+				padding-bottom: 15px;
+				text-align: center;
+            }
+            
+            nav ul li{
+                display: inline-block;
+                padding: 10px;
+                width: 10%;
+                background-color: #CAD8E6;
+                border-radius: 50px;
+                font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+                align-content: center;
+                margin: 15px;
+            }
+            
+            nav ul li a:link{
+                font-size: 20px;
+                color: black;
+                text-decoration: none;
+            }
+
+            nav ul li a:visited{
+                color: #2D4E69;
+                text-decoration: none;
+            }
+
+            nav ul li a:hover{
+                text-decoration: underline;
+                color: yellow;
+            }
+            
+            main{
+				height: auto;
+				background-color: #CAD8E6;
+				color: black;
+				margin: 0 auto;
+				padding: 30px;
+				text-align: justify;                
+            }
+            
+            footer{
+				background-color: #2D4E69;
+				height: 20px;
+				text-align: center;
+				color: white;
+				margin: 0 auto;
+				padding: 30px;
+				font-family: sans-serif;
+            }
+            
+            section{
+                width: 60%;
+				height: auto;
+                background-color: #FFF7EB;
+                margin: 80px auto;
+                padding: 100px;
+                font-family: sans-serif;
+            }
+            
+            p{
+                color: black;
+            }
+            
+            article section{
+                width: 70%;
+                background-color: ghostwhite;
+            }
+            
+            article section p{
+                color: black;
+            }
+            
+            section h2, h3 {
+                color: #2D4E69;
+                margin-bottom: 10px;
+                font-weight: bold;
+            }
+            
+            a{
+                margin: 0px 10px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            
+            
+            main nav{
+				width: 90%;
+                text-align: center;
+                background-color: transparent;
+            }
+            
+            main nav a{
+                text-decoration: none;
+                padding: 17px;
+                border-radius: 50px;
+                background-color: #2D4E69;
+                margin: 20px;
+            }
+            
+            main nav a:link{
+				color: #FFF7EB;
+                font-family: sans-serif;
+            }
+            
+            main nav a:visited{
+                color: white;
+            }
+            
+            main nav a:hover{
+                text-decoration: none;
+                color: #2D4E69;
+                background-color: #78A3C5;
+            }
+            
+            main section article section img{
+				display: block;
+                margin: 20px auto;
+                width: 90%;
+            }
+			
+			#foto_perfil {
+				margin-right: 20px;
+				width: 50%;
+			}
+            
+            #pelis {
+                color: black;
+                margin: 20px;
+                list-style-type: decimal;  
+            }
+            
+            #deporte{
+                list-style-image: url(imágenes/nadando.png);
+                margin: 30px;
+                color: black;
+            }
+            
+            #vineta1{
+                list-style: square;
+                margin: 20px;
+            }
+            
+            
+       		#section_yo {
+				width: 50%;
+				height: auto;
+				margin: 20px auto;
+                padding: 60px;
+				border-radius: 50px;
+			}
+			
+        	#título_hola {
+				font-size: 50px;
+			}
+			
+			.titulo_hobbie {
+				text-align: center;
+				font-size: 35px;
+				margin-bottom: 50px;
+			}
+			
+			.lista_jugadores {
+				margin: 30px;
+                color: black;
+			}
+			
+			.filtro_sombra {
+				filter: drop-shadow(5px 5px 3px gray);
+			}
+			
+			.foto_libro {
+				width: 50%;
+			}
+        </style>
+	</head>
+    
+    <body>
+        <header>
+            <h1>Mont Rosas</h1>
+        </header>
+        
+        <nav>
+            <ul>
+				<li><a href="index.html">Inicio</a></li>
+                <li><a href="html/galeria.html">Galería</a></li>
+                <li><a href="html/practicas.html">Prácticas</a></li>
+                <li><a href="html/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+			<section id="section_yo">
+				<article>
+					<img src="../DISEÑO DE INTERFACES/imágenes/IMG_20240122_161157.jpg" id="foto_perfil" align="left" alt="" class="filtro_sombra">
+					<h2 id="título_hola">¡HOLA!</h2>
+					<p>Bienvenido, soy Montse Bello, nací el 16 de febrero del 2002 en la ciudad de Puebla, actualmente tengo 22 años y estoy estudiando Diseño Gráfico en la<a href="https://www.buap.mx/" target="_blank">Benemérita Universidad Autónoma de Puebla,</a>donde cada proyecto que realizo es una nueva aventura y una oportunidad para aprender y crecer. Me considero una verdadera aficionada al cine, amante de perderme entre las páginas de un buen libro, y de vez en cuando, me convierto en una deportista en busca de nuevas emociones y desafíos.</p>
+					<br>
+					<p>Esta página es mi pequeño rincón en el vasto mundo digital, un lugar donde comparto mis pasiones, mis proyectos y todo aquello que me inspira y me motiva a seguir adelante.</p>
+                </article>
+            </section>
+			
+            <section>
+				<article>
+                    <h2 id="título 2">MIS HOBBIES</h2>
+                    <p>Bienvenido a mi mundo de hobbies, aquí, los deportes me mantienen en movimiento, desafiando mis límites y enseñándome el valor de la persistencia. Los libros abren puertas a universos desconocidos, permitiéndome vivir mil vidas en una y explorar profundidades de pensamiento y emoción que solo la literatura puede ofrecer. Y cuando se trata de relajarme, nada como sumergirme en el vasto mundo de películas y series, donde cada episodio es una nueva aventura. Este espacio está dedicado a compartir esas pasiones, reflexiones sobre mis lecturas favoritas, y las lecciones aprendidas tanto en el campo de juego como en cada trama absorbente.</p>
+				
+				<section>
+					<h2 class="titulo_hobbie">DEPORTES</h2>
+                    <h3>NATACIÓN</h3>
+                    <p>Adoro nadar porque me hace sentir libre y fuerte, como si me alejara de todo lo de ocurre a mi alrededor mientras nado. Es como si estuviera en mi propio mundo, concentrándome solo en cómo respiro y muevo los brazos. Prefiero nadar crol porque es rápido y me hace sentir que estoy volando en el agua, y también me gusta mucho mariposa porque es más difícil y me siento fuerte cada vez que completo una brazada. Estos dos estilos son mis favoritos porque me ayudan a sentirme más unida al agua, haciendo que cada vez que nado sea una experiencia que me renueva y me llena de energía.</p>
+					<br>
+					<p>Estos son los estilos de nado que más practico:</p>
+                    
+                    <ul id="deporte">
+						<li>Crol</li>
+                        <li>Pecho</li>
+                        <li>Dorso</li>
+                        <li>Mariposa</li>
+                    </ul>
+                    
+                    <img src="../DISEÑO DE INTERFACES/imágenes/nadar.jpg" alt="" class="filtro_sombra">
+                    
+					<br>
+					<br>
+					<br>
+					<h3>VOLEIBOL</h3>
+                    <p>Me gusta mucho jugar al voleibol porque es un deporte que une rapidez, fuerza y el trabajar juntos de una forma única. Me emociona mucho cuando tengo que saltar alto para bloquear la pelota o hacer un buen remate, y me encanta cómo todos en el equipo tenemos que movernos juntos y rápido para no dejar caer la pelota. Jugar voleibol también me ha enseñado lo importante que es hablar claro con los demás y confiar uno en el otro, tanto jugando, como en la vida diaria.</p>
+					<br>
+					<p>Estos son mis jugadores de voleibol favoritos</p>
+                    
+                    <ul class="lista_jugadores">
+						<li>Lorenzo Bernardi</li>
+                        <li>Giba</li>
+                        <li>Valerio Vermiglio</li>
+                        <li>Karch Kiraly</li>
+                    </ul>
+					
+					<img src="../DISEÑO DE INTERFACES/imágenes/voleibol.jpg" alt="" class="filtro_sombra">
+					
+                </section>
+					
+                <section>
+                    <h2>LEER</h2>
+                    <h3>Misterio/Suspenso</h3>
+                    <p>Me fascina sumergirme en las páginas llenas de misterio y suspenso, ya que cada historia me desafía a resolver intrigas y descifrar enigmas. La emoción de seguir el rastro de pistas es una experiencia que me cautiva y me sumerge en un mundo de intriga y sorpresas. Los libros de misterio y suspenso son como un rompecabezas emocionante que me atrapa desde el principio hasta el final, dejándome con ganas de más.</p>
+					<br>
+					<p>Te recomiendo este libro:</p>
+					<br>
+					<a href="https://es.wikipedia.org/wiki/Diez_negritos" target="_blank"> Diez negritos - Agatha Christies </a>
+					<img src="../DISEÑO DE INTERFACES/imágenes/Diez-negritos.png" alt="" class="filtro_sombra foto_libro">
+                    <br>
+					<br>
+					<br>
+					<h3>DISTOPÍA</h3>
+                    <p>Me encanta el fascinante mundo de las distopías, donde las sociedades se ven desafiadas por visiones alternativas del futuro. Cada historia me invita a reflexionar sobre la naturaleza humana, la política y el poder, mientras explora mundos imaginarios que, aunque distantes, reflejan aspectos inquietantes de nuestra realidad. Las distopías me ofrecen una ventana a la especulación y la crítica social, y encuentro un profundo placer en explorar estas narrativas que desafían los límites de la imaginación y la sociedad.</p>
+					<br>
+					<p>Te recomiendo estos 5 libros sobre mundos distópicos:</p>
+                    
+                    <ol id="pelis">
+                        <li>Divergente</li>
+                        <li>Maze Runner</li>
+                        <li>Los juegos del hambre</li>
+                        <li>Apocalipsis</li>
+                        <li>Ensayo sobre la ceguera</li>
+                    </ol>
+                    
+                    <img src="../DISEÑO DE INTERFACES/imágenes/divergente.jpg" alt="" class="filtro_sombra foto_libro">
+                    
+                    <a href="../DISEÑO DE INTERFACES/imágenes/divergente portada.jpg" target="_blank">Portada del libro</a>
+                    
+                    <a href="../DISEÑO DE INTERFACES/pdfs/divergente.pdf" download>Libro en pdf</a>
+                </section>
+					
+                <section>
+                    <h2>CINE</h2>
+                    <p>El cine, ver películas y series son mi pasión porque cada historia es un viaje emocionante que me transporta a mundos lejanos y me permite experimentar una amplia gama de emociones. Desde dramas conmovedores, hasta emocionantes aventuras y comedias hilarantes. Disfruto explorando diferentes géneros y descubriendo nuevas narrativas y personajes. Además, el cine y las series ofrecen una forma única de entretenimiento que puedo disfrutar tanto sola como en compañía de amigos y familiares, creando momentos memorables y compartidos que atesoraré para siempre.</p>
+					<br>
+					<p>Top 5 de películas y series de suspenso favoritas:</p>
+                    
+                    <ul id="vineta1">
+                        <li>Fresh</li>
+                        <li>Sharper</li>
+                        <li>Asesinato en el expreso de oriente</li>
+                        <li>Only murders in the building</li>
+                        <li>La caída de la Casa Usher</li>
+                    </ul>
+					
+					<br>
+					 <img src="../DISEÑO DE INTERFACES/imágenes/fresh.webp" alt="" class="filtro_sombra foto_libro">
+					
+					 <img src="../DISEÑO DE INTERFACES/imágenes/sharper.webp" alt="" class="filtro_sombra foto_libro">
+					
+					 <img src="../DISEÑO DE INTERFACES/imágenes/oreinte.webp" alt="" class="filtro_sombra foto_libro">
+					
+					 <img src="../DISEÑO DE INTERFACES/imágenes/omitb.jpg" alt="" class="filtro_sombra foto_libro">
+					
+					 <img src="../DISEÑO DE INTERFACES/imágenes/casausher.jpg" alt="" class="filtro_sombra foto_libro">
+                </section>
+				</article>	
+            </section>
+			
+			<section>
+				<article>
+                    <h2 id="título 3">MIS AFICIONES</h2>
+                    <p>Bienvenido a mi espacio de aficiones. Aquí encontrarás un universo diverso y emocionante que abarca desde la velocidad y la estrategia de la Fórmula 1, pasando por las épicas aventuras del universo Star Wars, hasta sumergirnos en el emocionante mundo cinematográfico de Marvel. Cada una de estas pasiones me inspira y me llena de emoción.</p>
+				
+				<section>
+                    <h3>FÓRMULA 1</h3>
+                    <p>Me apasiona la Fórmula 1 por la emoción que despierta cada carrera: la velocidad, la estrategia y la rivalidad entre pilotos y equipos me mantienen al borde de mi asiento en cada curva. Además, admiro la combinación de tecnología avanzada y habilidad humana que se ve reflejada en cada detalle de los coches. La F1 es más que un deporte; es una experiencia que me hace sentir viva y conectada con una comunidad global de aficionados que comparten mi pasión por las carreras de motor.</p>
+					<br>
+					<p>Estos son mis pilotos favoritos:</p>
+                    
+                    <ul class="lista_jugadores">
+						<li>Charles Leclerc</li>
+                        <li>Carlos Sainz</li>
+                        <li>Checo Pérez</li>
+                        <li>Valtteri Bottas</li>
+                    </ul>
+                    
+                    <img src="../DISEÑO DE INTERFACES/imágenes/pilotos.jpeg" alt="" class="filtro_opacidad filtro_sombra">	
+					<br>
+					<br>
+					<br>
+					<h3>STAR WARS</h3>
+                    <p>Me encanta Star Wars por su capacidad de transportarme a universos fascinantes llenos de aventuras épicas y personajes memorables. Cada película es una ventana a la imaginación, con historias que exploran temas profundos como el bien contra el mal, la amistad y el heroísmo. Además, la saga tiene un impacto cultural significativo y una base de fans apasionada que comparte mi amor por esta galaxia muy, muy lejana.</p>
+					<br>
+					<p>Estos son mis 3 personajes favoritos:</p>
+                    
+                    <ul class="lista_jugadores">
+						<li>The Mandalorian</li>
+                        <li>Grogu</li>
+                        <li>Anakin Skywalker</li>
+                    </ul>
+					
+					<img src="../DISEÑO DE INTERFACES/imágenes/starwars.jpeg" alt="" class="filtro_opacidad filtro_sombra">
+					<br>
+					<br>
+					<br>
+					<h3>MARVEL</h3>
+                    <p>Me encanta el universo cinematográfico de Marvel porque cada película es una experiencia épica que me transporta a mundos llenos de fantasía y aventura, mientras que los vínculos entre los personajes y sus luchas personales añaden capas de emoción y significado. Además, el sentido de comunidad entre los fanáticos de Marvel es incomparable, creando un ambiente de entusiasmo y camaradería que hace que cada nueva película sea un evento emocionante y compartido.</p>
+					<br>
+					<p>Estos son mis 3 personajes favoritos:</p>
+                    
+                    <ul class="lista_jugadores">
+						<li>The Winter Soldier</li>
+                        <li>The Punisher</li>
+                        <li>Daredevil</li>
+                    </ul>
+					
+					<img src="../DISEÑO DE INTERFACES/imágenes/marvel.webp" alt="" class="filtro_opacidad filtro_sombra">
+					
+                </section>
+				</article>	
+            </section>
+
+            <nav>
+                <a href="#título_hola" >¿Quién soy?</a>
+                <a href="#título 2" >Mis hobbies</a>
+				<a href="#título 3" >Mis aficiones</a>
+			</nav>
+			
+        </main>
+		
+        <footer>
+			<h6><b>Elaborado por Montserrat Bello R.</b></h6>
+        </footer>
+		
+    </body>
+</html>
